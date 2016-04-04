@@ -1,3 +1,4 @@
+declare function GenerateHelp(param: GenerateHelp.IHelpParam): string;
 declare namespace GenerateHelp {
 	interface IHelpParam {
 		commands?: IHelpParamCommand[];
@@ -17,8 +18,6 @@ declare namespace GenerateHelp {
 		desc?: string;
 		name: string;
 	}
-
-	function help(param: IHelpParam): string;
 }
 
-export = GenerateHelp.help;
+export = GenerateHelp;
