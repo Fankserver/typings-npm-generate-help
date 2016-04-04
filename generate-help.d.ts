@@ -11,7 +11,7 @@ declare namespace GenerateHelp {
 		alias?: string;
 		aliases?: string[];
 		desc?: string;
-		name: string;
+		name?: string;
 	}
 
 	interface IHelpParamCommand {
